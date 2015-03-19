@@ -1,0 +1,23 @@
+syntax on
+
+set spell
+
+" set tabstop=4 "Tab space is 4
+" set shiftwidth=4
+" set smarttab
+
+set number
+
+" set textwidth=80
+
+set mouse=a
+
+if has('gui_running')
+	set guifont=Source\ Code\ Pro\ 11
+endif
+
+colors default
+
+" setlocal textwidth=60
+let g:auto_save = 1 "Enable AutoSave
+
