@@ -2,8 +2,10 @@ syntax on
 
 set spell
 
-" set tabstop=4 "Tab space is 4
-" set shiftwidth=4
+set tabstop=4 "Tab space is 4
+set shiftwidth=4
+set softtabstop=0
+set noexpandtab
 " set smarttab
 
 set number
