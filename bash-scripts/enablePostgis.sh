@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Enable POSTGIS plugin for a give database
+
 echo "Enabling postgis for $1"
 
 psql -d $1 -c "CREATE EXTENSION fuzzystrmatch"
